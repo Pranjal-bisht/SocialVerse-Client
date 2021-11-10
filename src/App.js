@@ -8,6 +8,8 @@ import Profile from './components/screens/Profile';
 import Signup from './components/screens/Signup';
 import {reducer,initialState} from './reducers/userReducer'
 import CreatePost from './components/screens/CreatePost'
+import UserProfile from './components/screens/UserProfile';
+import SubscribedUserPosts from './components/screens/SubscribesUserPosts';
 export const UserContext = createContext()
 const Routing = ()=>{
   const history = useNavigate()
@@ -33,8 +35,10 @@ const Routing = ()=>{
       <Route exact path="/" element={<Home />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route exact path="/profile" element={<Profile />} />
         <Route path="/create" element={<CreatePost />} />
+        <Route path="/profile/:userid" element={<UserProfile />} />
+        <Route path="/myfollowingpost" element={<SubscribedUserPosts />} />
     </Routes>
   )
 }
