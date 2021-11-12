@@ -1,6 +1,23 @@
 ## [LIVE](https://socialverse.herokuapp.com/)           
 
+## SocialVerse - A social media MERN Stack web application
 
+## Technologies used:
+• Nodejs
+• Reactjs
+• Expressjs
+• MongoDB
+
+## About Project:
+• Built a full stack web app where users can Login, Signup, create, edit, view, delete a post, 
+comment, add a reaction, search and follow/unfollow other users, etc.
+• Implemented Client-side with Reactjs and Server-side development on Nodejs with Express 
+framework along with scalable code structure. 
+• Added Session-based user authentication using bcryptjs through which passwords are stored in 
+hashed format in the Database. Added Token-based user authentication using Json Web Token 
+(JWT) with RSA cryptographic algorithm.
+• Used Cloudinary API for uploading and storing images on the cloud.
+• For database, Used MongoDB atlas with mongoose ORM and deployed the web app on Heroku.
 
 # Getting Started with Create React App
 
