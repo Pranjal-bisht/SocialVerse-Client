@@ -1,5 +1,7 @@
 ## Check : [LIVE](https://socialverse.herokuapp.com/)           
 
+## Backend codebase can be found [here](https://github.com/Pranjal-bisht/SocialVerse-Backend)
+
 ## SocialVerse - A social media MERN Stack web application
 
 ## Technologies used:
