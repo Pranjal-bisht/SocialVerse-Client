@@ -1,4 +1,4 @@
-## [LIVE](https://socialverse.herokuapp.com/)           
+## Check : [LIVE](https://socialverse.herokuapp.com/)           
 
 ## SocialVerse - A social media MERN Stack web application
 
