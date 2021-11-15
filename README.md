@@ -12,8 +12,7 @@
 • MongoDB
 
 ## About Project:
-• Built a full stack web app where users can Login, Signup, create, edit, view, delete a post, 
-comment, add a reaction, search and follow/unfollow other users, etc.<br/>
+• Built a full stack web app where users can Login, Signup, create, edit, view, delete a post,comment, add a reaction, search and follow/unfollow other users, etc.<br/>
 • Implemented Client-side with Reactjs and Server-side development on Nodejs with Express 
 framework along with scalable code structure. <br/>
 • Added Session-based user authentication using bcryptjs through which passwords are stored in 
